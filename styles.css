@@ -1,106 +1,106 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f9f9f9;
-    color: #333;
+    font-family: Arial, sans-serif; /* Mengatur jenis font untuk teks di halaman. */
+    margin: 20px; /* Menambahkan jarak di sekitar halaman. */
+    background-color: #f9f9f9; /* Mengatur warna latar belakang halaman. */
+    color: #333; /* Mengatur warna teks utama. */
 }
 
 .image {
-    width: "auto"; 
-    height: "auto";
-    display: block;
-    margin: 0 auto;
+    width: "auto"; /* Mengatur lebar gambar secara otomatis sesuai ukuran aslinya. */
+    height: "auto"; /* Mengatur tinggi gambar secara otomatis sesuai proporsi. */
+    display: block; /* Mengatur elemen gambar menjadi block-level. */
+    margin: 0 auto; /* Mengatur gambar agar berada di tengah secara horizontal. */
 }
 
 h1 {
-    text-align: center;
-    color: #444;
+    text-align: center; /* Mengatur teks heading berada di tengah. */
+    color: #444; /* Mengatur warna teks heading. */
 }
 
 form {
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    margin: 0 auto;
+    margin-bottom: 20px; /* Menambahkan jarak bawah form. */
+    padding: 15px; /* Memberikan ruang dalam (padding) di form. */
+    background-color: #fff; /* Mengatur warna latar belakang form menjadi putih. */
+    border: 1px solid #ddd; /* Menambahkan garis batas tipis di sekitar form. */
+    border-radius: 5px; /* Membuat sudut form menjadi melengkung. */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan lembut di form. */
+    max-width: 400px; /* Membatasi lebar maksimum form. */
+    margin: 0 auto; /* Memposisikan form di tengah halaman secara horizontal. */
 }
 
 form input, form button {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+    width: 100%; /* Mengatur elemen input dan tombol memiliki lebar penuh. */
+    margin-bottom: 10px; /* Memberikan jarak bawah antara elemen. */
+    padding: 10px; /* Menambahkan ruang dalam (padding) pada elemen. */
+    border: 1px solid #ccc; /* Menambahkan garis batas abu-abu. */
+    border-radius: 5px; /* Membuat sudut elemen menjadi melengkung. */
+    box-sizing: border-box; /* Memastikan padding tidak memengaruhi total ukuran elemen. */
 }
 
 form {
-    color: white;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    color: white; /* Mengatur warna teks form menjadi putih. */
+    font-weight: bold; /* Membuat teks form menjadi tebal. */
+    border: none; /* Menghilangkan garis batas di form. */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat dihover. */
+    transition: background-color 0.3s ease; /* Menambahkan efek transisi pada warna latar form. */
 }
 
 button.submit {
-    background-color: #007BFF;
-    color: white;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-color: #007BFF; /* Warna biru untuk tombol submit. */
+    color: white; /* Warna teks putih. */
+    font-weight: bold; /* Teks tebal pada tombol submit. */
+    border: none; /* Menghapus garis batas pada tombol. */
+    cursor: pointer; /* Kursor berubah menjadi pointer saat dihover. */
+    transition: background-color 0.3s ease; /* Efek transisi pada warna latar saat dihover. */
 }
 
 button.submit:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Warna biru lebih gelap saat dihover. */
 }
 
 button.batal-edit {
-    background-color: #f44336; /* Merah */
-    color: white;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-color: #f44336; /* Warna merah untuk tombol batal edit. */
+    color: white; /* Warna teks putih. */
+    font-weight: bold; /* Teks tebal pada tombol batal edit. */
+    border: none; /* Menghapus garis batas pada tombol. */
+    cursor: pointer; /* Kursor berubah menjadi pointer saat dihover. */
+    transition: background-color 0.3s ease; /* Efek transisi pada warna latar saat dihover. */
 }
 
 button.batal-edit:hover {
-    background-color: #d32f2f; /* Merah lebih gelap */
+    background-color: #d32f2f; /* Warna merah lebih gelap saat dihover. */
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    width: 100%; /* Tabel mengisi lebar penuh halaman. */
+    border-collapse: collapse; /* Menghapus jarak antar garis dalam tabel. */
+    margin-top: 20px; /* Menambahkan jarak atas tabel. */
 }
 
 table th, table td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
+    border: 1px solid #ddd; /* Menambahkan garis batas abu-abu pada header dan data tabel. */
+    padding: 10px; /* Memberikan ruang dalam (padding) di header dan data tabel. */
+    text-align: left; /* Mengatur teks pada tabel rata kiri. */
 }
 
 table th {
-    background-color: #f2f2f2;
-    color: #555;
+    background-color: #f2f2f2; /* Warna latar belakang header tabel. */
+    color: #555; /* Warna teks header tabel. */
 }
 
 table tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; /* Warna latar belakang baris genap tabel. */
 }
 
 table tr:hover {
-    background-color: #f1f1f1;
+    background-color: #f1f1f1; /* Warna latar belakang baris saat dihover. */
 }
 
 table a {
-    color: #4CAF50;
-    text-decoration: none;
+    color: #4CAF50; /* Warna hijau untuk tautan di tabel. */
+    text-decoration: none; /* Menghapus garis bawah tautan. */
 }
 
 table a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Menambahkan garis bawah saat tautan dihover. */
 }
